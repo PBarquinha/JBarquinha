@@ -1,0 +1,54 @@
+.newsletter-container {
+    padding: 6rem 2rem;
+    background: url(../../../../Website_Images/Heros_Banners/Newsletter_Banner.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 8rem 2rem;
+    background-color: var(--primary);
+}
+
+.newsletter h3 {
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.newsletter p {
+    font-size: 1.5rem;
+    color: #ffffff;
+    padding: 1rem 0;
+}
+
+.newsletter form {
+    max-width: 60rem;
+    height: 5rem;
+    background: #fff;
+    border-radius: 5rem;
+    overflow: hidden;
+    display: flex;
+    margin: 1rem auto;
+    box-shadow: var(--box-shadow);
+}
+
+.newsletter form input[type="email"] {
+    height: 100%;
+    width: 100%;
+    padding: 0 2rem;
+    font-size: 1.6rem;
+    color: var(--primary);
+    text-transform: none;
+}
+
+.newsletter form input[type="submit"] {
+    height: 100%;
+    width: 17rem;
+    font-size: 1.7rem;
+    color: var(--black);
+    background: var(--yellow);
+    cursor: pointer;
+}
+
+.newsletter form input[type="submit"]:hover {
+    background: #f9d8069a;
+    
+}

@@ -1,0 +1,69 @@
+.footer {
+    background: var(--primary);
+}
+
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+}
+
+.footer .box-container .box h3 {
+    font-size: 2.2rem;
+    padding: 1rem 0;
+    color: var(--black);
+}
+
+.footer .box-container .box a {
+    display: block;
+    font-size: 1.4rem;
+    padding: 1rem 0;
+    color: white;
+}
+
+.footer .box-container .box a i {
+    padding-right: .5rem;
+    color: var(--black);
+}
+
+.footer .box-container .box a:hover i {
+    padding-right: 2rem;
+}
+
+
+
+
+.footer .box-container .box1 h3 {
+    font-size: 2.2rem;
+    padding: 1rem 0;
+    color: var(--black);
+}
+
+.footer .box-container .box1 a {
+    display: block;
+    font-size: 1.4rem;
+    padding: 1rem 0;
+    color: white;
+}
+
+.footer .box-container .box1 a i {
+    padding-right: .5rem;
+    color: var(--black);
+}
+
+.footer .box-container .box1 a:hover i {
+    padding-right: 2rem;
+}
+
+.footer .credit {
+    text-align: center;
+    padding: 3rem 2rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: #fff;
+    background-color: var(--black);
+}
+
+.footer .credit span {
+    color: var(--yellow);
+}

@@ -1,0 +1,67 @@
+.services{
+    background: url(../../../../Website_Images/Heros_Banners/Services.png) no-repeat;
+
+}
+.services h1 {
+    color: white;
+}
+
+.services .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+
+.services .box-container .box {
+    background: white;
+    padding: 3rem 2rem;
+    border-radius: .5rem;
+    box-shadow: white;
+    border: white;
+    text-align: center;
+
+}
+
+.services .box-container .box i {
+    height: 6rem;
+    width: 6rem;
+    line-height: 6rem;
+    border-radius: 50%;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    background: #eee;
+    color: #00312B;
+}
+
+
+
+.services .box-container .box h3 {
+    font-size: 2.2rem;
+    color: var(--primary);
+}
+
+
+
+
+
+
+
+
+
+.services .box-container .box p {
+    line-height: 1.8;
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    color: var(--primary);
+}
+
+
+
+.services {
+    background-color: var(--primary);
+    /* Replace 'your-color' with the desired background color */
+    width: 100%;
+    box-sizing: border-box;
+}

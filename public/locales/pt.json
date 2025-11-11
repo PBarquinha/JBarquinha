@@ -1,0 +1,121 @@
+{
+    "header": {
+        "home": "Início",
+        "services": "Serviços",
+        "vehicles": "Automóveis",
+        "about-us": "Quem Somos",
+        "contact": "Contactar"
+    },
+    "hero": {
+        "title": "Tradição e Excelência desde 1990",
+        "subtitle": "Bem-vindo à J.Barquinha! Tratamos de qualquer assunto relacionado com automóveis clássicos. Quer comprar ou vender? Não deixe de nos contactar.",
+        "newArrivalsBtn": "Novidades",
+        "carPortfolioBtn": "Automóveis"
+    },
+    "infoSection": {
+        "yearsExperience": "Anos de Experiência",
+        "carsSold": "Carros Vendidos",
+        "happyClients": "Clientes Satisfeitos",
+        "carsInStock": "Carros Disponíveis"
+    },
+    "topPicks": {
+        "heading": "Novidades",
+        "detailsButton": "Detalhes"
+    },
+    "services": {
+        "classicsForSaleTitle": "Venda de Clássicos",
+        "classicsForSaleDesc": "Temos uma variada seleção de automóveis clássicos prontos a encontrar um novo dono!",
+        "consignmentServicesTitle": "Serviço de Consignação",
+        "consignmentServicesDesc": "Quer vender o seu automóvel clássico? Deixe o seu automóvel connosco e nós tratamos de tudo. Avaliamos, promovemos e lidamos com todo o processo de venda para garantir que tenha o melhor negócio possível.",
+        "consultTitle": "Consulta",
+        "consultDesc": "A nossa experiência e conhecimento adquiridos ao longo dos anos a lidar com automóveis clássicos pode ser-lhe útil, não deixe de nos consultar!"
+    },
+    "newsletter": {
+        "title": "Subscreva e fique a par de todas as novidades",
+        "description": "Mantenha-se informado à cerca de todos os automóveis disponíveis, ofertas exclusivas e eventos emocionantes. Introduza o seu e-mail e receba actualizações regulares sobre o mundo dos carros clássicos na JBarquinha. Junte-se a nós !",
+        "emailPlaceholder": "Insira o email",
+        "subscribeButton": "Subscrever",
+        "thankYouMessage": "Obrigado por Subscrever!"
+    },
+    "contactForm": {
+        "title": "Contacte-nos",
+        "header": "Entrar em contacto",
+        "namePlaceholder": "nome",
+        "emailPlaceholder": "email",
+        "subjectPlaceholder": "assunto",
+        "messagePlaceholder": "mensagem",
+        "submitButton": "Enviar mensagem",
+        "thankYouMessage": "Obrigado pelo Contacto!",
+        "phonePlaceholder" : "Telefone"
+
+    },
+    "footer": {
+        "quickLinks": "Ligações Rápidas",
+        "home": "Início",
+        "newArrivals": "Novidades",
+        "services": "Serviços",
+        "vehicles": "Veículos",
+        "contact": "Contactar",
+        "contactInfo": "Informações de Contacto",
+        "socialMedia": "Redes Sociais"
+    },
+    "listOfCars": {
+        "title": "Stock de Clássicos",
+        "loadMore": "Carregar Mais",
+        "detailsButton": "Detalhes"
+    },
+    "CarInformation": {
+        "title": "Informações do Carro",
+        "description": "Sobre este veículo",
+        "year": "Ano",
+        "kilometers": "Quilômetros",
+        "motor": "Motor",
+        "transmission": "Transmissão",
+        "engineType": "Tipo de Motor",
+        "fuel": "Combustível",
+        "type": "Tipo",
+        "seats": "Assentos",
+        "doors": "Portas"
+    },
+    "buttons": {
+        "callNow": "Ligue Já",
+        "seeStock": "Ver Stock",
+        "followUs": "Segue-nos",
+        "about this vehicle": "Descrição do Veículo",
+        "email" : "jbarquinha@jbarquinha.com",
+        "contact": "+351 966 055 016"
+    },
+    "vehicle_Details": {
+        "Year" : "Ano",
+        "Kilometers" : "Quilômetros",
+        "Motor" : "Motor",
+        "Transmission" : "Transmissão",
+        "Engine Type" : "Tipo de Motor",
+        "Fuel" : "Combustível",
+        "Type" : "Tipo",
+        "Seats" : "Lugares",
+        "Doors" : "Portas"
+    },
+    "Suggestions": {
+        "Other" : "Outras",
+        "Suggestions" : "Sugestões",
+        "More Info" : "Detalhes"
+
+    },
+    "FilterButtons": {
+        "Total" : "Total",
+        "Cars" : "Automóveis",
+        "Brand A-Z": "Marca A-Z",
+        "Brand Z-A": "Marca Z-A",
+        "Price ASC": "Preço ASC",
+        "Price DESC": "Preço DESC",
+        "Year ASC": "Ano ASC",
+        "Year DESC" : "Ano DESC",
+        "AllBrands" : "Todas as marcas"
+    },
+    "About-Us": {
+        "text1" : "O tempo passa rápido, especialmente quando fazemos o que gostamos.",
+        "text2" : "Tenho dedicado a minha vida aos automóveis clássicos. Em determinada altura, a paixão com mais de 40 anos  transformou-se em negócio, ajudando, penso eu, muitas entusiastas como eu a concretizar o sonho de ter um automóvel clássico. Irei continuar a partilhar o meu conhecimento e paixão de tantos anos com os meus clientes tentando sempre prestar o melhor serviço nesta área tão específica e por vezes complicada.",
+        "button": "Veja a nossa lista de clássicos"
+    }
+}

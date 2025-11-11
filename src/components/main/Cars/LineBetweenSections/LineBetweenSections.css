@@ -1,0 +1,19 @@
+.line-between-sections {
+    background-color: var(--primary);
+    height: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.logo-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.logo-overlay img {
+    max-width: 20%;
+    height: auto;
+}

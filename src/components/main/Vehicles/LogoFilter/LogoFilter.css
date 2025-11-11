@@ -1,0 +1,61 @@
+.logo-slider {
+    margin: 20px 0;
+    text-align: center;
+    width: calc(100% - 20%); 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo-slider img {
+    max-width: 60px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.logo-item {
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: transform 0.3s;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    transition: background-color 0.3s;
+}
+
+.overlay.show {
+    background-color: rgba(255, 255, 255, 0.425);
+}
+
+
+button.slick-arrow.slick-next:before {
+    color: #00312B; 
+}
+
+button.slick-arrow.slick-prev:before {
+    color: #00312B; 
+}
+
+
+
+@media (max-width:768px) {
+
+    .logo-slider img {
+        max-width: 40px;
+        cursor: pointer;
+        margin: 0 auto;
+    }
+}

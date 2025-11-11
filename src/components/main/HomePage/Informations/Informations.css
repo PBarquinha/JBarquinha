@@ -1,0 +1,45 @@
+.icons-container {
+    background: var(--primary);
+}
+
+.icons-container .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.icons-container .box-container .box {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    padding: 2rem;
+    gap: 1.5rem;
+}
+
+.icons-container .box-container .box svg {
+    height: 2.5rem;
+    width: 2.5rem;
+    line-height: 5rem;
+    font-size: 2.5rem;
+    color: var(--primary);
+    background: #eee;
+    text-align: center;
+    border-radius: 50%;
+    padding: 1rem; 
+
+}
+
+.icons-container .box-container .box .content h3 {
+    font-size: 2.5rem;
+    color: var(--primary);
+}
+
+.icons-container .box-container .box .content p {
+    font-size: 1.5rem;
+    color: var(--primary);
+}
+

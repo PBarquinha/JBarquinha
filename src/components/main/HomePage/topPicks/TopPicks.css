@@ -1,0 +1,69 @@
+.vehicles h1 {
+    color: var(--primary);
+}
+
+.vehicles .vehicles-slider {
+    padding-bottom: 6rem;
+}
+
+.vehicles .vehicles-slider .box {
+    text-align: center;
+}
+
+.vehicles .vehicles-slider .box img {
+    width: 100%;
+    transform: scale(.8);
+    opacity: .5;
+    height: 30rem;
+    object-fit: contain;
+}
+
+.vehicles .vehicles-slider .box .content {
+    padding-top: 1rem;
+    transform: scale(0);
+}
+
+.vehicles .vehicles-slider .swiper-slide-active .content {
+    transform: scale(1);
+}
+
+.vehicles .vehicles-slider .swiper-slide-active img {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.vehicles .vehicles-slider .box .content h3 {
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+.vehicles .vehicles-slider .box .content .price {
+    font-size: 2.2rem;
+    color: var(--primary);
+    padding: 1rem 0;
+    font-weight: bolder;
+}
+
+.vehicles .vehicles-slider .box .content .price span {
+    color: var(--primary);
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.vehicles .vehicles-slider .box .content p {
+    font-size: 1.6rem;
+    color: var(--primary);
+    padding: 1rem 0;
+    padding-top: 1.5rem;
+    border-top: var(--border);
+}
+
+.vehicles .vehicles-slider .box .content span {
+    font-size: 1rem;
+    color: var(--yellow);
+    padding: 0 .5rem;
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--yellow);
+}

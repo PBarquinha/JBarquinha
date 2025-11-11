@@ -1,0 +1,121 @@
+{
+    "header": {
+        "home": "Home",
+        "services": "Services",
+        "about-us": "About Us",
+        "vehicles": "Vehicles",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "Tradition & Excellence since 1990",
+        "subtitle": "Welcome to JBarquinha! Located in Portugal, we deal with all matters relating to classic cars. Want to buy or sell? Don’t hesitate to contact us.",
+        "newArrivalsBtn": "New Arrivals",
+        "carPortfolioBtn": "Car Portfolio"
+    },
+    "infoSection": {
+        "yearsExperience": "Years of Experience",
+        "carsSold": "Cars Sold",
+        "happyClients": "Happy Clients",
+        "carsInStock": "Cars In Stock"
+    },
+    "topPicks": {
+        "heading": "New Arrivals",
+        "detailsButton": "Details"
+    },
+    "services": {
+        "classicsForSaleTitle": "Classics for Sale",
+        "classicsForSaleDesc": "We have a carefully selected range of classic cars ready to find a new owner!",
+        "consignmentServicesTitle": "Consignment Services",
+        "consignmentServicesDesc": "Want to sell your classic car? Leave your car with us and we'll take care of everything. We appraise, promote and handle the entire sales process to ensure you get the best deal possible",
+        "consultTitle": "Consult",
+        "consultDesc": "Our experience and knowledge acquired over the years dealing with classic cars can be useful to you, so don't hesitate to contact us !"
+    },
+    "newsletter": {
+        "title": "Subscribe for Latest Updates",
+        "description": "Keep up to date with all the cars available, exclusive offers and exciting events. Enter your e-mail address and receive regular updates on the world of classic cars at JBarquinha. Join Us !",
+        "emailPlaceholder": "Enter your email",
+        "subscribeButton": "Subscribe",
+        "thankYouMessage": "Thank you for subscribing!"
+    },
+    "contactForm": {
+        "title": "Contact Us",
+        "header": "Get in Touch",
+        "namePlaceholder": "Your name",
+        "emailPlaceholder": "Your email",
+        "subjectPlaceholder": "Subject",
+        "messagePlaceholder": "Your message",
+        "submitButton": "Send message",
+        "thankYouMessage": "Thank you for contacting us!",
+        "phonePlaceholder" : "Phone"
+    },
+    "footer": {
+        "quickLinks": "Quick Links",
+        "home": "Home",
+        "newArrivals": "New Arrivals",
+        "services": "Services",
+        "vehicles": "Vehicles",
+        "contact": "Contact",
+        "contactInfo": "Contact Info",
+        "socialMedia": "Social Media"
+    },
+    "listOfCars": {
+        "title": "List of Classics",
+        "loadMore": "Load More",
+        "detailsButton": "Details"
+    },
+    "CarInformation": {
+        "title": "Car Information",
+        "description": "About this vehicle",
+        "year": "Year",
+        "kilometers": "Kilometers",
+        "motor": "Motor",
+        "transmission": "Transmission",
+        "engineType": "Engine Type",
+        "fuel": "Fuel",
+        "type": "Type",
+        "seats": "Seats",
+        "doors": "Doors"
+    },
+    "buttons": {
+        "callNow": "Call Now",
+        "seeStock": "See Stock",
+        "followUs": "Follow Us",
+        "about this vehicle": "about this vehicle",
+        "email" : "jbarquinha@jbarquinha.com",
+        "contact": "+351 966 055 016"
+    },
+    "vehicle_Details": {
+        "Year" : "Year",
+        "Kilometers" : "Kilometers",
+        "Motor" : "Motor",
+        "Transmission" : "Transmission",
+        "Engine Type" : "Engine Type",
+        "Fuel" : "Fuel",
+        "Type" : "Type",
+        "Seats" : "Seats",
+        "Doors" : "Doors"
+    },
+    "Suggestions": {
+        "Other" : "Other",
+        "Suggestions" : "Suggestions",
+        "More Info" : "More Info"
+    },
+    "FilterButtons": {
+        "Total" : "Total",
+        "Cars" : "Cars",
+        "Brand A-Z": "Brand A-Z",
+        "Brand Z-A": "Brand Z-A",
+        "Price ASC": "Price ASC",
+        "Price DESC": "Price DESC",
+        "Year ASC": "Year ASC",
+        "Year DESC" : "Year DESC",
+        "AllBrands" : "All Brands"
+
+    },
+    "About-Us": {
+        "text1" : "Time passes quickly, especially when we do what we love.",
+        "text2" : "I have dedicated my life to classic cars. At some point, this 40-year-old passion turned into a business, helping, I think, many enthusiasts like me to realize their dream of owning a classic car. I will continue to share my knowledge and passion of so many years with my customers, always trying to provide the best service in this very specific and sometimes complicated area.",
+        "button": "View our list of classics"
+    }
+    
+}
