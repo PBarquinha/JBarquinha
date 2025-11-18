@@ -1,0 +1,58 @@
+.admin-cars-container {
+  padding: 30px;
+}
+
+.cars-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.car-item {
+  display: flex;
+  align-items: center;
+  background: #f7f7f7;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.car-img {
+  height: 90px;
+  margin-right: 20px;
+}
+
+.car-info {
+  flex: 1;
+}
+
+.car-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn,
+.delete-btn {
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.edit-btn {
+  background: #4caf50;
+  color: white;
+}
+
+.delete-btn {
+  background: #e53935;
+  color: white;
+}
+.add-car-btn {
+  display: inline-block;
+  background: #004aad;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
