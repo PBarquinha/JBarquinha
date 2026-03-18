@@ -7,7 +7,7 @@ import "./AdminAddCar.css";
 import OpenAI from "openai";
 
 const client = new OpenAI({
-    apiKey: process.env.REACT_APP_OPENAI_KEY,
+    apiKey: "",
     dangerouslyAllowBrowser: true,
 });
 

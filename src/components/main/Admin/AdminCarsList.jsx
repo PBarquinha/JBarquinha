@@ -4,6 +4,10 @@ import { collection, getDocs, deleteDoc, doc, orderBy, query } from "firebase/fi
 import "./AdminCarsList.css";
 import { Link } from "react-router-dom";
 
+// ZIP libraries
+import JSZip from "jszip";
+import { saveAs } from "file-saver";
+
 const AdminCarsList = () => {
     const [cars, setCars] = useState([]);
 
@@ -38,6 +42,54 @@ const AdminCarsList = () => {
         }
     };
 
+    // DOWNLOAD ALL IMAGES AS A ZIP FILE
+    const downloadImages = async (car) => {
+    if (!car || !car.images || car.images.length === 0) {
+        alert("No images found for this car.");
+        return;
+    }
+
+    const zip = new JSZip();
+    const folder = zip.folder(car.name.replace(/\s+/g, "_"));
+
+    for (let i = 0; i < car.images.length; i++) {
+        const url = car.images[i];
+
+        try {
+            const img = new Image();
+            img.crossOrigin = "anonymous"; // IMPORTANT
+            img.src = url;
+
+            await new Promise((resolve, reject) => {
+                img.onload = () => resolve();
+                img.onerror = (err) => reject(err);
+            });
+
+            // Draw image into a canvas
+            const canvas = document.createElement("canvas");
+            const ctx = canvas.getContext("2d");
+            canvas.width = img.width;
+            canvas.height = img.height;
+
+            ctx.drawImage(img, 0, 0);
+
+            // Convert to blob
+            const blob = await new Promise((resolve) =>
+                canvas.toBlob(resolve, "image/png")
+            );
+
+            folder.file(`image_${i + 1}.png`, blob);
+
+        } catch (err) {
+            console.error("Error processing image:", err);
+        }
+    }
+
+    const content = await zip.generateAsync({ type: "blob" });
+    saveAs(content, `${car.name.replace(/\s+/g, "_")}_images.zip`);
+};
+
+
     return (
         <div className="admin-cars-container">
             <h1>Carros na Base de Dados</h1>
@@ -63,11 +115,16 @@ const AdminCarsList = () => {
                             </div>
 
                             <div className="car-actions">
-
-                                {/* ✅ Redirect to edit page */}
                                 <Link to={`/admin/edit/${car.id}`} className="edit-btn">
                                     Edit
                                 </Link>
+
+                                <button
+                                    className="download-btn"
+                                    onClick={() => downloadImages(car)}
+                                >
+                                    Download Images
+                                </button>
 
                                 <button
                                     className="delete-btn"
